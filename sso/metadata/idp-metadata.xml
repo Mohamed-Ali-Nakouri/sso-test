@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" validUntil="2024-01-23T17:18:01Z" cacheDuration="PT1706462281S" entityID="dev.thrivin.global">
+    <md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIICuDCCAiGgAwIBAgIBADANBgkqhkiG9w0BAQ0FADB5MQswCQYDVQQGEwJ1czERMA8GA1UECAwITmV3IFlvcmsxFzAVBgNVBAoMDlRocml2aW4gR2xvYmFsMRcwFQYDVQQDDA50aHJpdmluLmdsb2JhbDElMCMGCSqGSIb3DQEJARYWc3VwcG9ydEB0aHJpdmluLmdsb2JhbDAeFw0yMzEyMTUwNjQwMjZaFw0yNDEyMTQwNjQwMjZaMHkxCzAJBgNVBAYTAnVzMREwDwYDVQQIDAhOZXcgWW9yazEXMBUGA1UECgwOVGhyaXZpbiBHbG9iYWwxFzAVBgNVBAMMDnRocml2aW4uZ2xvYmFsMSUwIwYJKoZIhvcNAQkBFhZzdXBwb3J0QHRocml2aW4uZ2xvYmFsMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtKDq3Fyljij4kwWL6pmc76vjghmy4MHseIxoPfif+F+blTOFKzChRXqXPyhow91OC+7SHmYQRj8AFN/lx9mKDvPbGQAjnVNfJjyAEFE2kXRydVQf5GG6iw12ICuu4+kP436ahjswsqPJqil1hMHJjbTkTa+jAJaY7sYepdl4T1wIDAQABo1AwTjAdBgNVHQ4EFgQUEg/eV/c1OKpiqtTLcGqMBglbj4owHwYDVR0jBBgwFoAUEg/eV/c1OKpiqtTLcGqMBglbj4owDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQ0FAAOBgQBjvuhX+fhgC64MZ1dFkgyFQWyvCzV0U1SvuxfkuWAXmJoa+ajyMxf0OBBtWz3Bto79VLy6fyi5H4DfTPUWcbbCyKeEBz8vKulsic7KT3a5vuA+ddcLBU7FZZz1Kfe6lQ0iZpO8nFM5T9tuAennEj01S2qPxZX7+nHqbR2lfb5M6Q==</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIICuDCCAiGgAwIBAgIBADANBgkqhkiG9w0BAQ0FADB5MQswCQYDVQQGEwJ1czERMA8GA1UECAwITmV3IFlvcmsxFzAVBgNVBAoMDlRocml2aW4gR2xvYmFsMRcwFQYDVQQDDA50aHJpdmluLmdsb2JhbDElMCMGCSqGSIb3DQEJARYWc3VwcG9ydEB0aHJpdmluLmdsb2JhbDAeFw0yMzEyMTUwNjQwMjZaFw0yNDEyMTQwNjQwMjZaMHkxCzAJBgNVBAYTAnVzMREwDwYDVQQIDAhOZXcgWW9yazEXMBUGA1UECgwOVGhyaXZpbiBHbG9iYWwxFzAVBgNVBAMMDnRocml2aW4uZ2xvYmFsMSUwIwYJKoZIhvcNAQkBFhZzdXBwb3J0QHRocml2aW4uZ2xvYmFsMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtKDq3Fyljij4kwWL6pmc76vjghmy4MHseIxoPfif+F+blTOFKzChRXqXPyhow91OC+7SHmYQRj8AFN/lx9mKDvPbGQAjnVNfJjyAEFE2kXRydVQf5GG6iw12ICuu4+kP436ahjswsqPJqil1hMHJjbTkTa+jAJaY7sYepdl4T1wIDAQABo1AwTjAdBgNVHQ4EFgQUEg/eV/c1OKpiqtTLcGqMBglbj4owHwYDVR0jBBgwFoAUEg/eV/c1OKpiqtTLcGqMBglbj4owDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQ0FAAOBgQBjvuhX+fhgC64MZ1dFkgyFQWyvCzV0U1SvuxfkuWAXmJoa+ajyMxf0OBBtWz3Bto79VLy6fyi5H4DfTPUWcbbCyKeEBz8vKulsic7KT3a5vuA+ddcLBU7FZZz1Kfe6lQ0iZpO8nFM5T9tuAennEj01S2qPxZX7+nHqbR2lfb5M6Q==</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+        <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.coursera.org/api/samlLogin.v1/login"/>
+    </md:IDPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="en-US">Thrivin Global</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="en-US">Thrivin Global</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="en-US">https://thrivin.global</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="technical">
+        <md:GivenName>Tech</md:GivenName>
+        <md:EmailAddress>support@thrivin.global</md:EmailAddress>
+    </md:ContactPerson>
+    <md:ContactPerson contactType="support">
+        <md:GivenName>Support</md:GivenName>
+        <md:EmailAddress>support@thrivin.global</md:EmailAddress>
+    </md:ContactPerson>
+</md:EntityDescriptor>

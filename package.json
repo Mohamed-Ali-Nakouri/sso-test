@@ -1,0 +1,19 @@
+{
+  "name": "sso-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "passport": "^0.7.0",
+    "passport-saml": "^3.2.4",
+    "path": "^0.12.7",
+    "xml2js": "^0.6.2"
+  }
+}

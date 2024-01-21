@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" validUntil="2023-12-17T06:48:50Z" cacheDuration="PT1703227730S" entityID="dev.thrivin.global" ID="pfx914de57f-27fa-b4da-bf39-09a004ed588a"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+    <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+        <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+        <ds:Reference URI="#pfx914de57f-27fa-b4da-bf39-09a004ed588a"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>QbEYO1dJg7OQiM3Mu+oBtyMJxbA=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>lCmy/lxcBQVc4HRdJc4R6lrL+Z7Ma9y+XfSh+F7N+xIBO5Ky3h2i8OxYa/8HerL6XnhJii+UUaZIecFVPusq0tln2so3MRkaHbWkL8V1ptEBChAO68UAd12Zd4hzFZyq6FDE9t2mK3w5Wd+/elbB4/MbLgXrBq6JFrEharOVQhM=</ds:SignatureValue>
+    <ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIICuDCCAiGgAwIBAgIBADANBgkqhkiG9w0BAQ0FADB5MQswCQYDVQQGEwJ1czERMA8GA1UECAwITmV3IFlvcmsxFzAVBgNVBAoMDlRocml2aW4gR2xvYmFsMRcwFQYDVQQDDA50aHJpdmluLmdsb2JhbDElMCMGCSqGSIb3DQEJARYWc3VwcG9ydEB0aHJpdmluLmdsb2JhbDAeFw0yMzEyMTUwNjQwMjZaFw0yNDEyMTQwNjQwMjZaMHkxCzAJBgNVBAYTAnVzMREwDwYDVQQIDAhOZXcgWW9yazEXMBUGA1UECgwOVGhyaXZpbiBHbG9iYWwxFzAVBgNVBAMMDnRocml2aW4uZ2xvYmFsMSUwIwYJKoZIhvcNAQkBFhZzdXBwb3J0QHRocml2aW4uZ2xvYmFsMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtKDq3Fyljij4kwWL6pmc76vjghmy4MHseIxoPfif+F+blTOFKzChRXqXPyhow91OC+7SHmYQRj8AFN/lx9mKDvPbGQAjnVNfJjyAEFE2kXRydVQf5GG6iw12ICuu4+kP436ahjswsqPJqil1hMHJjbTkTa+jAJaY7sYepdl4T1wIDAQABo1AwTjAdBgNVHQ4EFgQUEg/eV/c1OKpiqtTLcGqMBglbj4owHwYDVR0jBBgwFoAUEg/eV/c1OKpiqtTLcGqMBglbj4owDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQ0FAAOBgQBjvuhX+fhgC64MZ1dFkgyFQWyvCzV0U1SvuxfkuWAXmJoa+ajyMxf0OBBtWz3Bto79VLy6fyi5H4DfTPUWcbbCyKeEBz8vKulsic7KT3a5vuA+ddcLBU7FZZz1Kfe6lQ0iZpO8nFM5T9tuAennEj01S2qPxZX7+nHqbR2lfb5M6Q==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+    <md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIICuDCCAiGgAwIBAgIBADANBgkqhkiG9w0BAQ0FADB5MQswCQYDVQQGEwJ1czERMA8GA1UECAwITmV3IFlvcmsxFzAVBgNVBAoMDlRocml2aW4gR2xvYmFsMRcwFQYDVQQDDA50aHJpdmluLmdsb2JhbDElMCMGCSqGSIb3DQEJARYWc3VwcG9ydEB0aHJpdmluLmdsb2JhbDAeFw0yMzEyMTUwNjQwMjZaFw0yNDEyMTQwNjQwMjZaMHkxCzAJBgNVBAYTAnVzMREwDwYDVQQIDAhOZXcgWW9yazEXMBUGA1UECgwOVGhyaXZpbiBHbG9iYWwxFzAVBgNVBAMMDnRocml2aW4uZ2xvYmFsMSUwIwYJKoZIhvcNAQkBFhZzdXBwb3J0QHRocml2aW4uZ2xvYmFsMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtKDq3Fyljij4kwWL6pmc76vjghmy4MHseIxoPfif+F+blTOFKzChRXqXPyhow91OC+7SHmYQRj8AFN/lx9mKDvPbGQAjnVNfJjyAEFE2kXRydVQf5GG6iw12ICuu4+kP436ahjswsqPJqil1hMHJjbTkTa+jAJaY7sYepdl4T1wIDAQABo1AwTjAdBgNVHQ4EFgQUEg/eV/c1OKpiqtTLcGqMBglbj4owHwYDVR0jBBgwFoAUEg/eV/c1OKpiqtTLcGqMBglbj4owDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQ0FAAOBgQBjvuhX+fhgC64MZ1dFkgyFQWyvCzV0U1SvuxfkuWAXmJoa+ajyMxf0OBBtWz3Bto79VLy6fyi5H4DfTPUWcbbCyKeEBz8vKulsic7KT3a5vuA+ddcLBU7FZZz1Kfe6lQ0iZpO8nFM5T9tuAennEj01S2qPxZX7+nHqbR2lfb5M6Q==</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIICuDCCAiGgAwIBAgIBADANBgkqhkiG9w0BAQ0FADB5MQswCQYDVQQGEwJ1czERMA8GA1UECAwITmV3IFlvcmsxFzAVBgNVBAoMDlRocml2aW4gR2xvYmFsMRcwFQYDVQQDDA50aHJpdmluLmdsb2JhbDElMCMGCSqGSIb3DQEJARYWc3VwcG9ydEB0aHJpdmluLmdsb2JhbDAeFw0yMzEyMTUwNjQwMjZaFw0yNDEyMTQwNjQwMjZaMHkxCzAJBgNVBAYTAnVzMREwDwYDVQQIDAhOZXcgWW9yazEXMBUGA1UECgwOVGhyaXZpbiBHbG9iYWwxFzAVBgNVBAMMDnRocml2aW4uZ2xvYmFsMSUwIwYJKoZIhvcNAQkBFhZzdXBwb3J0QHRocml2aW4uZ2xvYmFsMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtKDq3Fyljij4kwWL6pmc76vjghmy4MHseIxoPfif+F+blTOFKzChRXqXPyhow91OC+7SHmYQRj8AFN/lx9mKDvPbGQAjnVNfJjyAEFE2kXRydVQf5GG6iw12ICuu4+kP436ahjswsqPJqil1hMHJjbTkTa+jAJaY7sYepdl4T1wIDAQABo1AwTjAdBgNVHQ4EFgQUEg/eV/c1OKpiqtTLcGqMBglbj4owHwYDVR0jBBgwFoAUEg/eV/c1OKpiqtTLcGqMBglbj4owDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQ0FAAOBgQBjvuhX+fhgC64MZ1dFkgyFQWyvCzV0U1SvuxfkuWAXmJoa+ajyMxf0OBBtWz3Bto79VLy6fyi5H4DfTPUWcbbCyKeEBz8vKulsic7KT3a5vuA+ddcLBU7FZZz1Kfe6lQ0iZpO8nFM5T9tuAennEj01S2qPxZX7+nHqbR2lfb5M6Q==</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://dev.thrivin.global/apis/sso/redirect-logout"/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+        <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://dev.thrivin.global/apis/sso/redirect-login"/>
+    </md:IDPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="en-US">Thrivin Global</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="en-US">Thrivin Global</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="en-US">https://thrivin.global</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="technical">
+        <md:GivenName>Tech</md:GivenName>
+        <md:EmailAddress>support@thrivin.global</md:EmailAddress>
+    </md:ContactPerson>
+    <md:ContactPerson contactType="support">
+        <md:GivenName>Support</md:GivenName>
+        <md:EmailAddress>support@thrivin.global</md:EmailAddress>
+    </md:ContactPerson>
+</md:EntityDescriptor>
